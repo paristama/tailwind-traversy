@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/main.css" />
         <title>Tailwind Traversy</title>
     </head>
-    <body class="mb-40">
+    <body>
         <nav class="relative container mx-auto p-6">
             <!-- Flex Container -->
             <div class="flex justify-between items-center">
@@ -290,5 +290,114 @@
                 </div>
             </div>
         </section>
+
+        <!-- Footer -->
+        <footer id="footer" class="bg-veryDarkBlue">
+            <div class="container px-4 pt-16 pb-6 mx-auto md:pb-16">
+                <div
+                    class="flex flex-col space-y-12 md:flex-row-reverse md:justify-between md:space-y-0"
+                >
+                    <!-- Form -->
+                    <div class="flex flex-col md:justify-between">
+                        <form>
+                            <div class="flex space-x-2">
+                                <input
+                                    type="text"
+                                    class="rounded-full text-darkBlue px-6 py-3 flex-1 focus:outline-none"
+                                    placeholder="Updates in your inbox..."
+                                />
+                                <button
+                                    type="button"
+                                    class="bg-brightRed text-white font-medium rounded-full px-8 py-3 hover:bg-brightRedLight"
+                                >
+                                    GO
+                                </button>
+                            </div>
+                        </form>
+                        <div
+                            class="hidden text-right text-stone-500 md:block text-sm"
+                        >
+                            Copyright &copy; 2020. All Rights Reserved
+                        </div>
+                    </div>
+                    <!-- Links -->
+                    <div
+                        class="flex justify-around md:justify-evenly md:flex-[2]"
+                    >
+                        <div
+                            class="flex flex-col space-y-2 text-white hover:[&>a]:text-brightRed"
+                        >
+                            <a href="#">Home</a>
+                            <a href="#">Pricing</a>
+                            <a href="#">Products</a>
+                            <a href="#">About Us</a>
+                        </div>
+                        <div
+                            class="flex flex-col space-y-2 text-white hover:[&>a]:text-brightRed"
+                        >
+                            <a href="#">Careers</a>
+                            <a href="#">Community</a>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                    </div>
+                    <!-- Socials & Logo -->
+                    <div
+                        class="flex flex-col space-y-12 md:flex-col-reverse md:space-y-0 md:justify-between"
+                    >
+                        <!-- Socials Icon -->
+                        <div class="flex justify-evenly md:justify-between">
+                            <a href="#">
+                                <img
+                                    src="images/icon-facebook.svg"
+                                    alt=""
+                                    class="h-8 md:h-6"
+                                />
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="images/icon-youtube.svg"
+                                    alt=""
+                                    class="h-8 md:h-6"
+                                />
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="images/icon-twitter.svg"
+                                    alt=""
+                                    class="h-8 md:h-6"
+                                />
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="images/icon-pinterest.svg"
+                                    alt=""
+                                    class="h-8 md:h-6"
+                                />
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="images/icon-instagram.svg"
+                                    alt=""
+                                    class="h-8 md:h-6"
+                                />
+                            </a>
+                        </div>
+                        <!-- Logo Image -->
+                        <div class="flex justify-center">
+                            <img
+                                src="images/logo-white.svg"
+                                alt="Logo Image"
+                                class="h-8"
+                            />
+                        </div>
+
+                        <!-- Copyright -->
+                        <div class="text-center text-stone-500 md:hidden">
+                            Copyright &copy; 2020. All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
